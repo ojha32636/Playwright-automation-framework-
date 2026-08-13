@@ -1,3 +1,5 @@
+from utils.config import LOGIN_URL
+
 class BasePage:
 
     def __init__(self, page):
