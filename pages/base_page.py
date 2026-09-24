@@ -1,4 +1,4 @@
-from utils.config import LOGIN_URL
+# BasePage class for common page actions 
 
 class BasePage:
 
@@ -7,3 +7,7 @@ class BasePage:
 
     def navigate(self, url):
         self.page.goto(url, wait_until="domcontentloaded")
+
+    def get_title(self):
+        return self.page.title()
+    

@@ -5,8 +5,7 @@ class HomePage(BasePage):
         super().__init__(page)
         
         
-
     def click_login_link(self):
         self.page.get_by_role("link", name="Sign in").click()
 
-    
+   
