@@ -1,3 +1,4 @@
 # It will contain test data
-Valid_Username = "Admin"
-Valid_Password = "admin123"
+VALID_USERNAME = "Admin"
+VALID_PASSWORD = "admin123"
+INVALID_PASSWORD = "123Om!@#$!1"
